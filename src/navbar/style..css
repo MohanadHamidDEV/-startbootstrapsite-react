@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+}
+
+nav {
+  background-color: #2c3e50 !important;
+  padding: 25px 100px !important;
+}
+
+nav .navbar-nav a,
+nav a {
+  font-weight: 700;
+  font-size: 1rem !important;
+  color: white !important;
+}
+
+.navbar-nav .nav-link {
+  margin: 0 10px;
+}
+nav .navbar-nav a:hover {
+  color: #1abc9c !important;
+}
+
+.navbar-brand {
+  font-size: 1.8rem !important;
+}
+
+.navbar-toggler {
+  align-items: center;
+  background-color: #1abc9c !important;
+  color: white;
+  outline: none !important;
+  border: none !important;
+  padding: 5px 10px !important;
+}
+
+.navbar-toggler {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  outline: none !important;
+  border: none !important;
+}
+
+.navbar-toggler::before {
+  content: "MENU";
+}
+
+@media screen and (max-width: 992px) {
+  .navbar {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .navbar-nav {
+    display: flex;
+  }
+  .navbar-nav .nav-link {
+    font-size: 1rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar .container-fluid {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+  }
+
+  .navbar-brand {
+    margin: 0 auto !important;
+  }
+}
