@@ -12,17 +12,17 @@ export default class Index extends Component {
     return (
       <>
         <div className={`container-fluid bg-light py-5 text-dark`}>
-          <div className="d-flex flex-column align-items-center justify-content-center">
+          <div className="d-flex flex-column align-items-center justify-content-center py-5">
             <h2
-              className={`text-center ${styles.pfolioHeading}`}
+              className={`text-center text-uppercase fw-bold ${styles.pfolioHeading}`}
             >
-              PORTFOLIO
+              portfolio
             </h2>
-            <div className="w-100 d-flex align-items-center justify-content-center">
+            <div className="w-75 d-flex align-items-center justify-content-center">
               <div
                 className={`bg-dark d-inline ${styles.hrDiv}`}
               ></div>
-              <i className="fs-2 fa-solid fa-star"></i>
+              <i className="fs-2 fa-solid fa-star px-2"></i>
               <div
                 className={`bg-dark d-inline ${styles.hrDiv}`}
               ></div>
@@ -31,34 +31,34 @@ export default class Index extends Component {
 
           <div className="h-100 row text-center justify-content-around g-4 mt-2">
             <div className="d-flex justify-content-center col-lg-4 col-md-6 col-sm-12">
-              <div className="card w-100">
+              <div className={`${styles.card} w-100`}>
                 <img className="w-100 rounded-2" src={cabin} alt="cabin" />
               </div>
             </div>
 
             <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="card">
-                <img className="rounded-2" src={cake} alt="cake" />
+              <div className={`${styles.card}`}>
+                <img className="w-100 rounded-2" src={cake} alt="cake" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="card">
-                <img className="rounded-2" src={circus} alt="circus" />
+              <div className={`${styles.card}`}>
+                <img className="w-100 rounded-2" src={circus} alt="circus" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="card">
-                <img className="rounded-2" src={game} alt="game" />
+              <div className={`${styles.card}`}>
+                <img className="w-100 rounded-2" src={game} alt="game" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="card">
-                <img className="rounded-2" src={safe} alt="safe" />
+              <div className={`${styles.card}`}>
+                <img className="w-100 rounded-2" src={safe} alt="safe" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="card">
-                <img className="rounded-2" src={submarine} alt="submarine" />
+              <div className={`${styles.card}`}>
+                <img className="w-100 rounded-2" src={submarine} alt="submarine" />
               </div>
             </div>
           </div>

@@ -25,16 +25,16 @@ export default class Index extends Component {
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav ms-auto my-3">
                 <Link
-                  class="nav-link active"
+                  class="nav-link text-uppercase"
                   to="/portfolio"
                 >
-                  PORTFOLIO
+                  portfolio
                 </Link>
-                <Link class="nav-link" to="/about">
-                  ABOUT
+                <Link class="nav-link text-uppercase" to="/about">
+                  about
                 </Link>
-                <Link class="nav-link" to="/contact">
-                  CONTACT
+                <Link class="nav-link text-uppercase" to="/contact">
+                  contact
                 </Link>
               </div>
             </div>

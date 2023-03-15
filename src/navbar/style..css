@@ -23,7 +23,7 @@ nav a {
 }
 
 .navbar-nav .nav-link {
-  margin: 0 10px;
+  margin: 10px !important;
 }
 nav .navbar-nav a:hover {
   color: #1abc9c !important;

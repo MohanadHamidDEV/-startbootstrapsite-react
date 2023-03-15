@@ -6,28 +6,23 @@ export default class Index extends Component {
   render() {
     return (
       <>
-        <section
-          className={`${styles.header} min-vh-100 pb-5 text-center d-flex align-items-center justify-content-center flex-column`}
-        >
-          <div>
-            <img src={pfp} className="pb-5" alt="profile" width="250" />
-          </div>
-          <div>
-            <div>
-              <h2 className={`fw-bold text-light ${styles.headerTitle}`}>
-                START BOOTSTRAP
-              </h2>
+        <section className={`${styles.header} d-flex flex-column align-items-center pt-5 vh-100 overflow-scroll`}>
+
+          <div className="w-100">
+
+            <div className="d-flex flex-column align-items-center text-light text-nowrap">
+              <img className="pb-4" src={pfp} width="250px" alt="pfp" />
+              <h2 className="text-uppercase fs-1 fw-bold">Start Bootstrap</h2>
+
+              <div className={`${styles.hrParent} py-3 w-75`}>
+                <div className={`bg-light ${styles.hrDiv}`}></div>
+                <i class="fa-solid fa-star fs-1 px-2"></i>
+                <div className={`bg-light ${styles.hrDiv}`}></div>
+              </div>
+
+              <h3 className={`${styles.desc} text-capitalize text-nowrap`}>Gaphic Artist - Web Designer - Illustrator</h3>
             </div>
 
-            <div className={`pb-5 pt-4 ${styles.hrParent}`}>
-              <div className={`d-inline ${styles.hrDiv}`}></div>
-              <i class="fa-solid fa-star text-light fs-1"></i>
-              <div className={`d-inline ${styles.hrDiv}`}></div>
-            </div>
-
-            <div className="fw-semibold text-light fs-5">
-              <p>Graphic Artist - Web Designer - Illustrator</p>
-            </div>
           </div>
         </section>
       </>

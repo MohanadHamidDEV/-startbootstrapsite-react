@@ -25,6 +25,10 @@
   font-size: 3rem;
 }
 
+textarea {
+  height: 150px !important;
+}
+
 @media screen and (max-width: 316px) {
   .contactHeading {
     font-size: 2.5rem;
